@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_time"
+        android:id="@+id/textView6"
+        android:textSize="25sp" />
+
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:visibility="visible"
+        android:width="15dp"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid1"
+        android:rowCount="4"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorRed"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:backgroundTint="@color/flat_red" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorYellow"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:backgroundTint="@color/flat_yellow" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorBlue"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:backgroundTint="@color/flat_blue" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorGreen"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:backgroundTint="@color/flat_green" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorPurple"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:backgroundTint="@color/flat_purple" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnColorPink"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:backgroundTint="@color/flat_pink" />
+
+    </GridLayout>
+
+
+</LinearLayout>

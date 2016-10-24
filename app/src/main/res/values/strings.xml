@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default -->
+    <string name="app_name">Sphero Colors</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Configurações</string>
+    <string name="btn_yes">Sim</string>
+    <string name="btn_no">Não</string>
+    <string name="sphero_connected">Sphero conectada</string>
+
+    <!-- Drawer -->
+    <string name="title_start">Início</string>
+    <string name="title_how_to_play">Como jogar</string>
+    <string name="title_settings">Configurações</string>
+
+    <!-- Start -->
+    <string name="btn_start">Começar</string>
+    <string name="btn_howtoplay">Como jogar?</string>
+
+    <!-- How to Play -->
+    <string name="title_howtoplay">Como jogar?</string>
+    <string name="text_howtoplay">
+        Objetivo: Reconhecer a cor da luz da bolinha e pressionar o botão correto no dispositivo.
+    </string>
+
+    <!-- Game Select-->
+    <string name="title_game_select">O jogador sabe ler?</string>
+    <string name="text_save_option">Guardar essa opção</string>
+
+    <!-- Games -->
+    <string name="color_red">Vermelho</string>
+    <string name="color_blue">Azul</string>
+    <string name="color_green">Verde</string>
+    <string name="color_yellow">Amarelo</string>
+    <string name="color_pink">Rosa</string>
+    <string name="color_purple">Roxo</string>
+    <string name="text_time">Tempo restante</string>
+    <string name="high_score">Melhor pontuação:</string>
+    <string name="score">Pontuação</string>
+    <string name="start_game">Iniciar</string>
+    <string name="time_over">Tempo esgotado!</string>
+    <string name="chrono_max_time">00:20</string>
+    <string name="game_started">Jogo iniciado!</string>
+
+    <!-- Preferences -->
+    <string name="pref_title">Preferences</string>
+    <string name="pref_high_score_read">highScoreRead</string>
+    <string name="pref_high_score_no_read">highScoreNoRead</string>
+</resources>
